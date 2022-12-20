@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lab6"
+version = "0.1.0"
+description = "Numba w modelu Isinga"
+authors = ["Natalia Grzybicka"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.10"
+numba = "^0.56.4"
+numpy = "^1.23.5"
+matplotlib = "^3.6.2"
+jupyterlab = "^3.5.1"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

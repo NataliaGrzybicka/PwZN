@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lab7"
+version = "0.1.0"
+description = "Oscylator harmoniczny w trzech wariantach"
+authors = ["Natalia Grzybicka"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.10"
+sympy = "^1.11.1"
+matplotlib = "^3.6.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.19.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
