@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lab8"
+version = "0.1.0"
+description = "Model SIR"
+authors = ["Natalia Grzybicka"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+numpy = "^1.24.1"
+matplotlib = "^3.6.2"
+scipy = "^1.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.19.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
